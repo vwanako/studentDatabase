@@ -3,11 +3,14 @@
 #include <string>
 #include <vector>
 
+#include <student.h>
+
 class student
 {
 private:
     std::string name, email, phone_number;
     int id, date_of_birth;
+    std::fstream attendance;
 
 public:
     student(const std::string &name, const std::string &email, const std::string &phone_number)
