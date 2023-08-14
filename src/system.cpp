@@ -3,6 +3,7 @@
 #include <fstream>
 
 #include <system.h>
+#include <student.h>
 
 void create_student()
 {
@@ -16,4 +17,6 @@ void create_student()
     std::cout << "\nPhone number: ";
     std::cin >> phone_number;
     std::cout << "\nDate of birth: ";
+
+    student
 }
