@@ -9,7 +9,7 @@ protected:
     std::fstream attendance;
 
 public:
-    student(const std::string &name, const std::string &email, const std::string &phone_number);
+    student(const std::string &name, const std::string &email, const std::string &phone_number, const int &date_of_birth);
 
     // setters
     void set_name(std::string name);

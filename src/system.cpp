@@ -18,5 +18,5 @@ void create_student()
     std::cin >> phone_number;
     std::cout << "\nDate of birth: ";
 
-    student
+    student new_student(name, email, phone_number, date_of_birth);
 }
