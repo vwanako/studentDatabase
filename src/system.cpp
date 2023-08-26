@@ -19,4 +19,7 @@ void create_student()
     std::cout << "\nDate of birth: ";
 
     student new_student(name, email, phone_number, date_of_birth);
+    new_student.save_to_files();
+
+    std::cout << "\nStudent has been sucessfully created.";
 }

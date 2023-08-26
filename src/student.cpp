@@ -7,6 +7,14 @@
 
 student::student(const std::string &name, const std::string &email, const std::string &phone_number, const int &date_of_birth)
 {
+    set_name(name);
+    set_email(email);
+    set_phone_number(phone_number);
+    set_date_of_birth(date_of_birth);
+}
+
+void student::save_to_files()
+{
 }
 
 void student::set_name(std::string name)
