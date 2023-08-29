@@ -23,3 +23,11 @@ void create_student()
 
     std::cout << "\nStudent has been sucessfully created.";
 }
+
+void delete_student()
+{
+}
+
+void update_student()
+{
+}
